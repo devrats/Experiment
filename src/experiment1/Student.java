@@ -1,3 +1,5 @@
+package experiment1;
+
 import java.util.Objects;
 
 class Student {
@@ -41,7 +43,7 @@ class Student {
 
     @Override
     public String toString() {
-        return String.format("name of the Student is: " + name + "\n" + rollNumber);
+        return String.format("name of the experiment1.Student is: " + name + "\n" + rollNumber);
     }
 
     @Override
